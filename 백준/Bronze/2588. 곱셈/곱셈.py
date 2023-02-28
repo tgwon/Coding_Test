@@ -1,7 +1,7 @@
-a = input()
-b = input()
+a = int(input())
+b = int(input())
 
-print(int(a) * int(b[2:3]))
-print(int(a) * int(b[1:2]))
-print(int(a) * int(b[0:1]))
-print(int(a) * int(b))
+print(a * (b%10))
+print(a * (b%100//10))
+print(a * (b//100))
+print(a*b)
