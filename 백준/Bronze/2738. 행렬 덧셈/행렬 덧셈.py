@@ -9,7 +9,5 @@ C =[]
 for i in range(N):
     for j in range(M):
         C.append(A[i][j] + B[i][j])
-for i in range(N):
-    for j in range(M):
-        r = C[0+(i*M):M*(i+1)]
+        r = C[0+(i*M):M*(i+1)]     
     print(*r)
