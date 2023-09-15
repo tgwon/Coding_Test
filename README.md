@@ -7,8 +7,6 @@ This is a auto push repository created with [BaekjoonHub](https://github.com/Bae
 
   Progammers SQL Challenges: Record of my solutions to SQL challenges on Progammers.
   
-  unrated : it means lv2
-  
 <br/>
 
 - **Baekjoon (Python)**
