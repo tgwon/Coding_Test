@@ -12,6 +12,7 @@ FROM
 WHERE
     B.BOARD_ID = F.BOARD_ID
     AND
-    B.VIEWS = (SELECT MAX(VIEWS) FROM USED_GOODS_BOARD) 
+    B.VIEWS = (SELECT MAX(VIEWS) FROM USED_GOODS_BOARD)
+    -- inner join과 같은 의미! left join보다 성능 측면에서 좋음
 ORDER BY
     FILE_ID DESC;
