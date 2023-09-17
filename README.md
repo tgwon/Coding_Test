@@ -7,6 +7,8 @@ This is a auto push repository created with [BaekjoonHub](https://github.com/Bae
 
   Progammers SQL Challenges: Record of my solutions to SQL challenges on Progammers.
   
+  unrated : This is a new problem, and it is not classified into levels, so it includes various levels.
+  
 <br/>
 
 - **Baekjoon (Python)**
