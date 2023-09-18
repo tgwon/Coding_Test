@@ -3,14 +3,14 @@ This is a auto push repository created with [BaekjoonHub](https://github.com/Bae
 
 <br/>
 
-- **Progammers (SQL)**
+- **SQL**, **Python**
 
-  Progammers SQL Challenges: Record of my solutions to SQL challenges on Progammers.
+  Progammers
   
   unrated : This is a new problem, and it is not classified into levels, so it includes various levels.
   
 <br/>
 
-- **Baekjoon (Python)**
+- **Python**
 
-  Baekjoon Python Challenges: Compilation of my Python solutions to coding challenges on Baekjoon.
+  Baekjoon
