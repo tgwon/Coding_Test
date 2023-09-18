@@ -5,7 +5,7 @@ This is a auto push repository created with [BaekjoonHub](https://github.com/Bae
 
 - **SQL**, **Python**
 
-  Progammers
+  Programmers
   
   unrated : This is a new problem, and it is not classified into levels, so it includes various levels.
   
