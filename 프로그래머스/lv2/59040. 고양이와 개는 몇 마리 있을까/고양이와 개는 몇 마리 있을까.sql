@@ -4,11 +4,11 @@ SELECT
     ,COUNT(*)
 FROM
     ANIMAL_INS
-WHERE
-    ANIMAL_TYPE = 'Cat'
-    or
-    ANIMAL_TYPE = 'Dog'
 GROUP BY
     ANIMAL_TYPE
+HAVING
+    ANIMAL_TYPE = 'Cat'
+    OR
+    ANIMAL_TYPE = 'Dog'
 ORDER BY
     ANIMAL_TYPE
