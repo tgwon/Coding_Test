@@ -6,6 +6,8 @@ SELECT
     WHEN SEX_UPON_INTAKE LIKE '%Neutered%' or SEX_UPON_INTAKE LIKE '%Spayed%'
     THEN 'O'
     ELSE 'X'
-    END
+    END AS 중성화
 FROM
-    ANIMAL_INS;
+    ANIMAL_INS
+ORDER BY
+    ANIMAL_ID;
