@@ -6,16 +6,6 @@ SELECT
 FROM
     ANIMAL_INS
 WHERE
-    NAME = 'Lucy'
-    or
-    NAME = 'Ella'
-    or
-    NAME = 'Pickle'
-    or
-    NAME = 'Rogan'
-    or
-    NAME = 'Sabrina'
-    or
-    NAME = 'Mitty'
+    NAME IN ('Lucy','Ella','Pickle','Rogan','Sabrina','Mitty')
 ORDER BY
     ANIMAL_ID
