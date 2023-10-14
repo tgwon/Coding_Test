@@ -1,17 +1,10 @@
--- 코드를 입력하세요
-SELECT
+SELECT 
     CART_ID
 FROM
     CART_PRODUCTS
 WHERE
-    NAME = 'Yogurt'
-    AND
-    CART_ID in 
-    (SELECT
-        DISTINCT CART_ID
-    FROM
-        CART_PRODUCTS
-    WHERE
-        NAME = 'Milk')
-order by
-    cart_id
+    NAME IN ('Milk','Yogurt')
+GROUP BY
+    CART_ID
+HAVING 
+    COUNT(DISTINCT NAME)=2
