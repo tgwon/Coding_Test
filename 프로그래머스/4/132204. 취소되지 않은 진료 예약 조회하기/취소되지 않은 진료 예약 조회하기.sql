@@ -22,4 +22,3 @@ WHERE
     D.MCDP_CD = 'CS'
 ORDER BY
     A.APNT_YMD
-    
