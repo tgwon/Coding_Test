@@ -11,6 +11,10 @@ GROUP BY
 ORDER BY
     SUM(F.TOTAL_ORDER + J.TOTAL_ORDER) DESC
 LIMIT 3
+
 -- F의 기본키 FLAVOR
 -- J의 기본키 SHIPMENT_ID
--- J -> 같은 FLAVOR여도 다른 SHIPMENT를 가짐
+-- J : 같은 FLAVOR여도 다른 SHIPMENT_ID를 가짐
+
+-- ON F.SHIPMENT_ID = J.SHIPMENT_ID
+-- 이렇게 하면 같은 FLAVOR여도 다른 SHIPMENT_ID를 갖는 경우는 집계가 안됨
