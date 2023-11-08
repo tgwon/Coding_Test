@@ -3,8 +3,8 @@ SELECT
 FROM
     CART_PRODUCTS
 WHERE
-    NAME IN ('Milk','Yogurt')
+    NAME IN ('Milk' , 'Yogurt')
 GROUP BY
     CART_ID
 HAVING 
-    COUNT(DISTINCT NAME)=2
+    COUNT(DISTINCT NAME) = 2
