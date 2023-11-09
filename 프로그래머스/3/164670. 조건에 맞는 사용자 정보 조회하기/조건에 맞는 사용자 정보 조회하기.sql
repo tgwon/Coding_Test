@@ -12,7 +12,7 @@ FROM
 GROUP BY
     WRITER_ID
 HAVING
-    COUNT(*)>=3
+    COUNT(*) >= 3
 ORDER BY
     WRITER_ID DESC
 ;
