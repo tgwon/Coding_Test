@@ -22,7 +22,7 @@ WHERE
 
 SELECT
     a.history_id, 
-    ROUND(a.daily_fee * a.period * (100 - IFNULL(p.discount_rate,0)) / 100) AS FEE
+    ROUND(a.daily_fee * a.period * (100 - IFNULL(p.discount_rate,0)) * 0.01) AS FEE
 FROM
     a
     LEFT JOIN
