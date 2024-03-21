@@ -1,11 +1,11 @@
-from collections import deque
+input = int(input())
+square = 2
 
-n = int(input())
-
-result = deque([i for i in range(1,n+1)])
-
-while len(result) > 1:
-    result.popleft()
-    result.append(result.popleft())
-
-print(result[0])
+while True:
+    if (input == 1 or input == 2):
+        print(input)
+        break
+    square *= 2
+    if (square >= input):
+        print((input - (square // 2)) * 2)
+        break
