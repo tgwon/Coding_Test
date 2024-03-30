@@ -11,8 +11,8 @@ for i in range(n):
     
     if value == 0:
         try:
-            print(heapq.heappop(heap)[1])
+            print(-heapq.heappop(heap))
         except:
             print(0)
     else:
-        heapq.heappush(heap, (-value, value))
+        heapq.heappush(heap, -value)
