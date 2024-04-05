@@ -26,4 +26,4 @@ if len(result2) == 1:
 else:
     print(result2[1])
     
-print(max(result) - min(result))
+print(result[-1] - result[0])
