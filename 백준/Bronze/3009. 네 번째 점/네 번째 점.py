@@ -1,5 +1,4 @@
 
-
 result1 = []
 result2 = []
 
@@ -11,7 +10,9 @@ for i in range(3):
 for i in result1:
     if result1.count(i) == 1:
         print(i, end= ' ')
+        break
 
 for i in result2:
     if result2.count(i) == 1:
         print(i, end= ' ')
+        break
