@@ -13,4 +13,4 @@ for i,j in enumerate(char):
     value = list2[idx]
     result += value*r**(i)
 
-print(result)
+print(result % 1234567891)
